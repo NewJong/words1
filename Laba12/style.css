@@ -1,0 +1,76 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('books.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+}
+#difficulty {
+  width: 120px;
+  padding: 7px;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  font-weight: bold;
+  background-color: #e90b0b;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  height: 40px;
+}
+
+#userInput {
+  width: 200px; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  background-color: rgb(51, 255, 0);
+  border: 3px solid #ddd; 
+  border-radius: 20px; 
+  font-size: 16px; 
+  color:#000000;
+}
+
+#userInput::placeholder {
+  color: #000000; 
+  opacity: 0.8;
+}
+#userInput:focus {
+  font-size: 16px; 
+  margin-bottom: 10px; 
+  outline: none; 
+  padding: 10px; 
+  border: 2px solid #000000; 
+  box-shadow: 0px 0px 20px rgb(0, 0, 0); 
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.box {
+  font-size: 50px;
+  background-color: #d3cf06;
+  padding: 50px;
+  width: 250px;
+  margin: 20px;
+  border-radius: 30px; 
+  border: 3px solid #ddd;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1); 
+  cursor: pointer;
+}
+.progress {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.score {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}

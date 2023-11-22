@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium" selected>Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+    <div id="progress" class="progress">Step <span id="step">1</span></div>
+    <div id="score" class="score">Correct: <span id="correctCount">0</span> | Incorrect: <span id="incorrectCount">0</span></div>
+    <div id="box" class="box">Click to reveal translation</div>
+    <input type="text" id="userInput" placeholder="Enter translation">
+ 
+</div>
+</body>
+</html>
